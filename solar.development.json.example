@@ -1,0 +1,153 @@
+{
+  "contracts": {
+    "ContractCreator.sol": {
+      "source": "ContractCreator.sol:ContractCreator",
+      "abi": [
+        {
+          "name": "NewContract",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "accountId",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "NewContractWithCoin",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "accountId",
+              "type": "uint256",
+              "indexed": false
+            },
+            {
+              "name": "amount",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        }
+      ],
+      "bin": "6080604052600a61000e610064565b90815260405190819003602001906000f080158015610031573d6000803e3d6000fd5b5060008054600160a060020a031916600160a060020a039290921691909117905534801561005e57600080fd5b50610073565b604051607d8061029583390190565b610213806100826000396000f30060806040526004361061004b5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663213f74f9811461005057806393ab8cc41461006a575b600080fd5b34801561005c57600080fd5b50610068600435610085565b005b34801561007657600080fd5b506100686004356024356100ef565b8061008e61015b565b90815260405190819003602001906000f0801580156100b1573d6000803e3d6000fd5b506000805473ffffffffffffffffffffffffffffffffffffffff191673ffffffffffffffffffffffffffffffffffffffff9290921691909117905550565b80826100f961015b565b908152604051908190036020019082f08015801561011b573d6000803e3d6000fd5b506000805473ffffffffffffffffffffffffffffffffffffffff191673ffffffffffffffffffffffffffffffffffffffff92909216919091179055505050565b604051607d8061016b8339019056006080604052604051602080607d833981016040525160028054600160a060020a0319908116339081179092556000929092556001805490921617905560358060486000396000f3006080604052600080fd00a165627a7a7230582015e63b56434d4e3ff621b4c200f016ca5b218f2f01ab09c96262a044460b10c40029a165627a7a72305820aaa58d4494a369fb15517531551f89d89afb09911347f50bac25ef2d99d6529300296080604052604051602080607d833981016040525160028054600160a060020a0319908116339081179092556000929092556001805490921617905560358060486000396000f3006080604052600080fd00a165627a7a7230582015e63b56434d4e3ff621b4c200f016ca5b218f2f01ab09c96262a044460b10c40029",
+      "binhash": "1da73947a04a848a977f3c273bfdb9a8a6341534e2071169164467aafa27726b",
+      "name": "ContractCreator",
+      "deployName": "ContractCreator.sol",
+      "address": "3966f9f9202be5df69e2248a71e4bd2b64dc19e3",
+      "txid": "9518934a2360b9744e7462f664ebf27d7c4ee7b155221d6038f65c177109cf74",
+      "createdAt": "2018-10-11T23:32:22.89055913-07:00",
+      "confirmed": true,
+      "sender": "qRmRVN5aFSttJB18Y9NLMDr8oDAPqt3wiB",
+      "senderHex": "5a07f2112cc9c9584398ce06874112c9e4996bd2"
+    },
+    "OwnedContract.sol": {
+      "source": "OwnedContract.sol:OwnedContract",
+      "abi": [
+        {
+          "name": "",
+          "type": "constructor",
+          "payable": true,
+          "inputs": [
+            {
+              "name": "accoutId",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        }
+      ],
+      "bin": "6080604052604051602080607d833981016040525160028054600160a060020a0319908116339081179092556000929092556001805490921617905560358060486000396000f3006080604052600080fd00a165627a7a7230582015e63b56434d4e3ff621b4c200f016ca5b218f2f01ab09c96262a044460b10c40029",
+      "binhash": "35a30f98fe11efec32beb60a785bb911ba2d3722042bafe6de52dda37c05a57b",
+      "name": "OwnedContract",
+      "deployName": "OwnedContract.sol",
+      "address": "3c228630bc0bfc487229547b48bc9d7e9afff78c",
+      "txid": "929c1c1bf6ef7ae35d363cfc850270c371da50bd6f918844630bbee55e6d41bf",
+      "createdAt": "2018-10-11T23:31:52.614618731-07:00",
+      "confirmed": true,
+      "sender": "qRmRVN5aFSttJB18Y9NLMDr8oDAPqt3wiB",
+      "senderHex": "5a07f2112cc9c9584398ce06874112c9e4996bd2"
+    }
+  },
+  "libraries": {},
+  "related": {
+    "ContractCreator.sol:ContractCreator": {
+      "source": "ContractCreator.sol:ContractCreator",
+      "name": "ContractCreator",
+      "abi": [
+        {
+          "name": "NewContract",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "accountId",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        },
+        {
+          "name": "NewContractWithCoin",
+          "type": "function",
+          "payable": false,
+          "inputs": [
+            {
+              "name": "accountId",
+              "type": "uint256",
+              "indexed": false
+            },
+            {
+              "name": "amount",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": [],
+          "constant": false,
+          "anonymous": false
+        }
+      ],
+      "bin": "6080604052600a61000e610064565b90815260405190819003602001906000f080158015610031573d6000803e3d6000fd5b5060008054600160a060020a031916600160a060020a039290921691909117905534801561005e57600080fd5b50610073565b604051607d8061029583390190565b610213806100826000396000f30060806040526004361061004b5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663213f74f9811461005057806393ab8cc41461006a575b600080fd5b34801561005c57600080fd5b50610068600435610085565b005b34801561007657600080fd5b506100686004356024356100ef565b8061008e61015b565b90815260405190819003602001906000f0801580156100b1573d6000803e3d6000fd5b506000805473ffffffffffffffffffffffffffffffffffffffff191673ffffffffffffffffffffffffffffffffffffffff9290921691909117905550565b80826100f961015b565b908152604051908190036020019082f08015801561011b573d6000803e3d6000fd5b506000805473ffffffffffffffffffffffffffffffffffffffff191673ffffffffffffffffffffffffffffffffffffffff92909216919091179055505050565b604051607d8061016b8339019056006080604052604051602080607d833981016040525160028054600160a060020a0319908116339081179092556000929092556001805490921617905560358060486000396000f3006080604052600080fd00a165627a7a7230582015e63b56434d4e3ff621b4c200f016ca5b218f2f01ab09c96262a044460b10c40029a165627a7a72305820aaa58d4494a369fb15517531551f89d89afb09911347f50bac25ef2d99d6529300296080604052604051602080607d833981016040525160028054600160a060020a0319908116339081179092556000929092556001805490921617905560358060486000396000f3006080604052600080fd00a165627a7a7230582015e63b56434d4e3ff621b4c200f016ca5b218f2f01ab09c96262a044460b10c40029",
+      "binhash": "1da73947a04a848a977f3c273bfdb9a8a6341534e2071169164467aafa27726b"
+    },
+    "OwnedContract.sol:OwnedContract": {
+      "source": "OwnedContract.sol:OwnedContract",
+      "name": "OwnedContract",
+      "abi": [
+        {
+          "name": "",
+          "type": "constructor",
+          "payable": true,
+          "inputs": [
+            {
+              "name": "accoutId",
+              "type": "uint256",
+              "indexed": false
+            }
+          ],
+          "outputs": null,
+          "constant": false,
+          "anonymous": false
+        }
+      ],
+      "bin": "6080604052604051602080607d833981016040525160028054600160a060020a0319908116339081179092556000929092556001805490921617905560358060486000396000f3006080604052600080fd00a165627a7a7230582015e63b56434d4e3ff621b4c200f016ca5b218f2f01ab09c96262a044460b10c40029",
+      "binhash": "35a30f98fe11efec32beb60a785bb911ba2d3722042bafe6de52dda37c05a57b"
+    }
+  }
+}
