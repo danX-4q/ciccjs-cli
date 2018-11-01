@@ -8,7 +8,7 @@ const {
 
 const repoData = require("./solar.development.json")
 const qtum = new Qtum("http://test:test@localhost:13889", repoData)
-const myToken = qtum.contract("ContractCreator.sol")
+const myToken = qtum.contract("cicc-solidity/ContractCreator.sol")
 
 async function NewContract(accountId)
 {
